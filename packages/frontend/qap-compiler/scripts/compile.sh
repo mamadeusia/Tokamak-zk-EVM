@@ -1,5 +1,5 @@
 names=("KeccakBufferOut" "InterfaceBufferIn" "ADD" "MUL" "SUB" "DIV" "SDIV" "MOD" "SMOD" "ADDMOD" "MULMOD" "EQ" "ISZERO" "SHL" "SHR" "LT" "GT" "NOT" "BYTE" "SAR" "SIGNEXTEND" "SLT" "SGT" "AND" "OR" "XOR" "DecToBit" "SubEXP" "InterfaceBufferOut" "KeccakBufferIn")
-CURVE_NAME="bn128"
+CURVE_NAME="bls12381"
 
 # get the directory of the script
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" && \
